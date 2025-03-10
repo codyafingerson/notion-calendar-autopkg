@@ -1,2 +1,18 @@
-# notion-calendar-autopkg
+# Notion Calendar Recipe for AutoPKG
 A simple recipe for downloading and packaging Notion Calendar using the AutoPKG CLI for automating packaging and software distribution on macOS.
+
+## Usage
+1. Install the latest version of AutoPKG from the [AutoPKG GitHub page](https://github.com/autopkg/autopkg/releases).
+2. Install the latest version of the Notion Calendar recipe by running the following command:
+```bash
+autopkg repo-add
+```
+3. Run the Notion Calendar recipe by running the following command:
+```bash
+autopkg run NotionCalendar
+```
+4. The Notion Calendar package will be saved to the `~/Library/AutoPkg/Cache/` directory.
+
+## License
+
+MIT License
