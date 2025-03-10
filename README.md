@@ -9,9 +9,12 @@ autopkg repo-add
 ```
 3. Run the Notion Calendar recipe by running the following command:
 ```bash
-autopkg run NotionCalendar
+autopkg run NotionCalendar.pkg
 ```
-4. The Notion Calendar package will be saved to the `~/Library/AutoPkg/Cache/` directory.
+4. The Notion Calendar package will be saved to the `~/Library/AutoPkg/Cache/` directory (or the directory specified in the AutoPKG configuration file).
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
