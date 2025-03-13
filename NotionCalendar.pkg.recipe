@@ -100,8 +100,5 @@
             <string>PkgCreator</string>
         </dict>
     </array>
-
-    <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-    <false />
 </dict>
 </plist>
